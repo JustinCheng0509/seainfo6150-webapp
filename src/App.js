@@ -4,8 +4,9 @@ import Article from "./Article";
 class App extends Component {
     render() {
         const array = [
-            { title: <h1>The Statue of Liberty's torch heads to new museum</h1>
-                ,author: <h4>Kate Farley</h4>, date: <h6>November 22, 2018</h6>
+            { title: <h1 align = "center">The Statue of Liberty's torch heads to new museum</h1>
+                ,author: <h4 align="center">Kate Farley</h4>
+                ,date: <h6 align="center">November 22, 2018</h6>
                 ,children:
                     <p>&emsp;The Statue of Liberty's original torch is getting a new home.
                     Made of copper and gold so that it would shine bright, the first torch took a beating from the weather and was replaced by a replica in 1984. It's been stored in the statue's pedestal ever since.
@@ -24,7 +25,7 @@ class App extends Component {
                         <i>"The original torch is a beautiful object of art and exemplifies the American ideals of freedom and democracy,"</i> says John Piltzecker,
                         superintendent of the Statue of Liberty National Monument. That symbolic spirit was bolstered by the decision to inscribe Emma Lazarus' poem <i>"The New Colossus"</i> on the statue's pedestal, which gave Lady Liberty one of her nicknames, <i>"Mother of Exiles."</i>
 
-                        The most famous lines in the poem are: <br/><br/><b><i>"Give me your tired, your poor / Your huddled masses yearning to breathe free."</i></b><br/><br/>
+                        The most famous lines in the poem are: <br/><br/><b><i><div align="center">"Give me your tired, your poor / Your huddled masses yearning to breathe free."</div></i></b><br/><br/>
 
                         &emsp;In 2017, nearly 4.5 million people visited Liberty Island.
 
