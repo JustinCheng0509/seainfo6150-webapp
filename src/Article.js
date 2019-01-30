@@ -1,22 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Children from "./Children";
 
-const Article = ({ article }) => (
-    <ul>
-        {article.map(({ title, author, date, children }) => {
-            return (
-                <li key={article}>
-                    <Children title={title} author={author} date={date} children={children}></Children>
-                </li>
-            );
-        })}
-    </ul>
+const Article = (props) => (
+    <div>
+        {props.title}
+        {props.author}
+        {props.date}
+        {props.children}
+    </div>
 );
 
 
 Article.propTypes = {
     article: PropTypes.array.isRequired,
+    title: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
 };
 
 export default Article;
