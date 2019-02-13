@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Article from "./Article";
 
-class AppOld extends Component {
+class App extends Component {
     render() {
         const title  = <h1 align = "center">The Statue of Liberty's torch heads to new museum</h1>
         const author = <h4 align="center">Kate Farley</h4>
