@@ -4,9 +4,7 @@ import ArticleListItem from "./ArticleListItem";
 import styles from "./ArticleList.module.css";
 
 const ArticleList = ({ articles }) => (
-  <div className={styles.container}>
-    {// this iterates through the articles JSON and
-    // calls your ArticleListItem component for each article
+  <div className={styles.container}>{
     Object.values(articles).map(article => {
       return (
         <ArticleListItem

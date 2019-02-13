@@ -12,7 +12,7 @@ const Article = (props) => (
 
 
 Article.propTypes = {
-    article: PropTypes.array.isRequired,
+    children: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
