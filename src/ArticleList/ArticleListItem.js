@@ -11,7 +11,7 @@ class ArticleListItem extends React.Component {
     return (
       <ul className={styles.container}>
         <li>
-          <h2 class={styles.title}>{this.props.title}</h2>
+          <h3 class={styles.title}>{this.props.title}</h3>
         </li>
         <li>
           <p class={styles.shortText}>{this.props.shortText}</p>
@@ -27,27 +27,6 @@ class ArticleListItem extends React.Component {
   }
 }
 
-/*
-const ArticleListItem = ({ props }) => (
-    <ul className={styles.container}>
-      <li>
-        <h1 class="title">{props.title}</h1>
-      </li>
-      <li>
-        <p class="shortText">{props.shortText}</p>
-      </li>
-      <li>
-        <address>{props.author}</address>
-      </li>
-      <li>
-        <date class="date">By: {props.date}</date>
-      </li>
-      <li>
-        <year class="year">{props.year}</year>
-      </li>
-    </ul>
-  );
-*/
 ArticleListItem.propTypes = {
   title: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
