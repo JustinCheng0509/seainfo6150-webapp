@@ -30,6 +30,7 @@ class ArticleTableRow extends React.Component {
     // onClick={this.onClick.bind(this)}
     //
       return (
+        <tbody>
           <tr>
               <td>
                   <input type="Checkbox" onClick={this.onClick.bind(this)} />
@@ -38,7 +39,7 @@ class ArticleTableRow extends React.Component {
                   <span>{selectedStatus}</span>
               </td>
               <td>
-                  <span class="Author">{this.props.author}</span>
+                  <span className="Author">{this.props.author}</span>
               </td>
               <td>
                   <time>{this.props.date}</time>
@@ -47,6 +48,7 @@ class ArticleTableRow extends React.Component {
                   <span>{this.props.shortText}</span>
               </td>
           </tr>
+        </tbody>
       );
   }
 }

@@ -11,16 +11,16 @@ class ArticleListItem extends React.Component {
     return (
       <ul className={styles.container}>
         <li>
-          <h3 class={styles.title}>{this.props.title}</h3>
+          <h3 className={styles.title}>{this.props.title}</h3>
         </li>
         <li>
-          <p class={styles.shortText}>{this.props.shortText}</p>
+          <p className={styles.shortText}>{this.props.shortText}</p>
         </li>
         <li>
           <address>By: {this.props.author}</address>
         </li>
         <li>
-          <date>{this.props.date}</date>
+          <time>{this.props.date}</time>
         </li>
       </ul>
     );
