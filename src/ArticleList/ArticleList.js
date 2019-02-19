@@ -14,7 +14,8 @@ const ArticleList = ({ articles }) => (
           year={article.pubYear}
           author={article.author}
           shortText={article.shortText}
-        />
+          url={article.image._url}
+          />
       );
     })}
   </div>
