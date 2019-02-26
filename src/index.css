@@ -15,7 +15,7 @@ body {
   font-family: "Oswald", "Helvetica Neue", "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   align:justify;
+  text-align:justify;
 
 }
 

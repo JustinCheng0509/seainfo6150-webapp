@@ -4,7 +4,7 @@ import styles from "./ArticleImage.module.css";
 
 const ArticleImage = ({url, title}) => (
     <div className={styles.container}>
-        <img id={title} className={styles.image} src={url} alt="alt test"/>
+        <img title={title} className={styles.image} src={url} alt="alt test"/>
     </div>
 );
 

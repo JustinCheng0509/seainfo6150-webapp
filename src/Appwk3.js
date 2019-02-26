@@ -8,7 +8,7 @@ class App extends Component {
     const author = <h4 align="center">Kate Farley</h4>
     const date = <h6 align="center">November 22, 2018</h6>
     const article =  
-    <ul>
+    <div>
     <section>
     <p>&emsp;The Statue of Liberty's original torch is getting a new home. Made of copper and gold so that it would shine bright, the first torch took a beating from the weather and was replaced by a replica in <time datetime="1984">1984</time>. It's been stored in the statue's pedestal ever since.
     But visitors will be able to see the original<var> 3,600-pound</var> torch in all its glory at a new Statue of Liberty Museum, which will open on Liberty Island in <time datetime="2019-05">May 2019</time>. The torch was transported there by truck last week, along with a replica model of Lady Liberty's face.
@@ -25,8 +25,7 @@ class App extends Component {
     <section>
     <p>&emsp;In <time datetime="2017">2017</time>, nearly <var>4.5</var> million people visited Liberty Island. When completed, the Statue of Liberty Museum will be <var>26,000 </var>square feet of history, inspiration and deeper analysis of the statue's symbolism both in the US and around the world. The <i>"inspiration gallery,"</i> which is where the torch will live, will have floor-to-ceiling glass windows looking out at Lower Manhattan, including the World Trade Center.</p>
     </section>
-</ul>;
-   
+</div>;   
     return (
       <div className="App">
       <Article author={author} title={title} date={date}>{article}</Article>

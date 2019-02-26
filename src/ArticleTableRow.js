@@ -29,27 +29,19 @@ class ArticleTableRow extends React.Component {
     // you should not have to modify this code in any way
     // onClick={this.onClick.bind(this)}
     //
-      return (
-        <tbody>
-          <tr>
-              <td>
-                  <input type="Checkbox" onClick={this.onClick.bind(this)} />
-              </td>
-              <td>
-                  <span>{selectedStatus}</span>
-              </td>
-              <td>
-                  <span className="Author">{this.props.author}</span>
-              </td>
-              <td>
-                  <time>{this.props.date}</time>
-              </td>
-              <td>
-                  <span>{this.props.shortText}</span>
-              </td>
-          </tr>
-        </tbody>
-      );
+    return (
+      <tbody>
+        <tr>
+          <td><input type = "checkbox" onClick = {this.onClick.bind(this)}/></td>
+          <td>{selectedStatus}</td>
+          <td><h4>{this.props.author}</h4></td>
+          <td><time dateTime ={this.props.year}>{this.props.date}</time></td>
+          <td>{this.props.shortText}</td>
+        </tr>
+      </tbody>
+    
+    );
+
   }
 }
 
