@@ -3,7 +3,7 @@
     display: flex;
     border: 1px solid #242323;
     flex-flow: row wrap;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
     justify-content: space-between;
 }
 
@@ -40,7 +40,6 @@
     background: rgb(100, 100, 100);
     display:grid;   
     grid-template-columns: repeat(3,auto);
-    grid-template-rows: repeat(100px, auto);    
     grid-column-gap: 10px;   
     grid-row-gap: 15px;  
     padding-bottom: 30px;
@@ -50,6 +49,7 @@
     height:150px;
     width: 100%;
     background-color: #ED5736;
+    padding-bottom: 0px;
     margin: 5px;
 }
 
