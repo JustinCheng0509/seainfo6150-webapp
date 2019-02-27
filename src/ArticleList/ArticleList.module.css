@@ -37,7 +37,7 @@
     font-family: "Times New Roman", Times, serif;
     margin: 5px;
     padding: 1em;
-    background: rgb(100, 100, 100);
+    background: #8b8b8b;
     display:grid;   
     grid-template-columns: repeat(3,auto);
     grid-column-gap: 10px;   
@@ -55,7 +55,7 @@
 
 .footerText{
     font-size: 10px;
-    color:white;
+    color:#FAFAFA;
     padding-left:30px;
     padding-top:30px;
     font-weight: normal;
