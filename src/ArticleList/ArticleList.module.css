@@ -38,9 +38,11 @@
     margin: 5px;
     padding: 1em;
     background: rgb(100, 100, 100);
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    display:grid;   
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(100px, auto);    
+    grid-column-gap: 10px;   
+    grid-row-gap: 15px;  
     padding-bottom: 30px;
 }
 
