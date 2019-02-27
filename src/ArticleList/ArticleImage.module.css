@@ -5,7 +5,7 @@ container {
   .image {
     width: 10em;
     margin: 1em;
-    border: 10px solid rgb(204, 2, 2);
+    border: 10px solid #ED5736;
     box-shadow: 0 0.5em 1em rgb(58, 53, 53);
     border-radius: 50%;
   }
