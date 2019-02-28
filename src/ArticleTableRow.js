@@ -49,7 +49,8 @@ ArticleTableRow.propTypes = {
   title: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
-  shortText: PropTypes.string.isRequired
+  shortText: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired
 };
 
 export default ArticleTableRow;

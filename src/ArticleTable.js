@@ -24,6 +24,7 @@ const ArticleTable = ({ articles }) => (
         date={article.pubDate}
         author={article.author}
         shortText={article.shortText}
+        year={article.pubYear}
       />
     })
   }
