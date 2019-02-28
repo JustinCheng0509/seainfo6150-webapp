@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import ArticleList from "./ArticleList/ArticleList";
+import ArticleTable from './ArticleTable';
 import articles from './data/articles.json';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <ArticleList articles={articles} />
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="App">
+                <ArticleTable articles={articles} />
+            </div>
+        );
+    }
 }
 
 export default App;
